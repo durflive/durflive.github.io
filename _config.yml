@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
-skin: "/assets/css/skins/default.css"
+skin: "/assets/css/skins/light.css"
 locale: en-US
 title: "Durf.Live"
 description: "Home for all things Durf!"
@@ -30,15 +30,19 @@ mathjax:
   combo: # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
   tags: # "none", "ams" (default), "all"
 google_fonts:
-  - name: "Source Sans Pro"
+  - name: "Text Me One"
     weights: "400,400i,700,700i"
-  - name: "Lora"
+  - name: "Josafin Slab"
     weights: "400,400i,700,700i"
+  # - name: "Source Sans Pro"
+  #   weights: "400,400i,700,700i"
+  # - name: "Lora"
+  #   weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: chuckdurfee # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
@@ -78,6 +82,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-twitch
 
 # Front Matter Defaults
 defaults:
@@ -92,7 +97,7 @@ defaults:
 # Site Author
 author:
   name: Chuck Durfee
-  picture:
+  picture: images/chuck-durfee.jpg
   email: chuck@durf.live
   twitter: chuckdurfee
   links:
@@ -102,6 +107,12 @@ author:
 
 # Footer Links
 footer_links:
+  - title: Twitter
+    url: https://twitter.com/chuckdurfee
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/durflive
+    icon: fab fa-github-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square

@@ -1,3 +1,17 @@
+/*
+Customizations.
+Yes, I am swapping the font styles on purpose, since my logo has a serif 
+font and I felt the headers should follow suit.
+*/
+
+$sans-serif-font-family: "Text Me One", sans-serif;
+$serif-font-family: "Josafin Slab", serif;
+$base-font-family: $serif-font-family !default;
+$headline-font-family: $serif-font-family !default;
+$title-font-family: $sans-serif-font-family !default;
+$description-font-family: $sans-serif-font-family !default;
+$meta-font-family: $sans-serif-font-family !default;
+
 /*!
  * So Simple Jekyll Theme 3.2.0
  * Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
@@ -29,3 +43,4 @@
 
 /* Utility Clases */
 @import "so-simple/utilities";
+
